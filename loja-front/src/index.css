@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@100&display=swap');
+
+body{
+  font-family: 'Mooli', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.listaDeProdutos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+
+.produto {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5em;
+  padding: 1em;
+  border-radius: 10px;
+  justify-content: space-between;
+  width: 180px;
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.produto .nome {
+  font-size: 1.2em; 
+  font-weight: 800;
+}
+
+.produto .valor {
+  font-weight: bold; 
+  font-size: 1.5em;
+  color: #ff6600; 
+}
+
+.produto img {
+  width: 100%;
+  max-height: 150px; 
+}
+
+.produto * {
+  margin: 0;
+}
+
+.Cabecalho {
+  display: flex;
+  padding: 10px 200px;
+  text-align: center;
+  margin: -16px -152px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+  background: linear-gradient(127deg, rgba(255,255,255,1) 0%, rgba(14,142,214,1) 50%, rgba(1,49,88,1) 100%);
+}
+
+
+.Cabecalho img {
+    display: flex;
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    margin-left: -100px;
+    box-shadow: 1px 0px 2px #013158;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.Cabecalho img:hover{
+  opacity: .80;
+}
+
+.h1{
+  margin: 10px 20px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+  justify-content: center;
+  font-family: 'Mooli', serif;
+  color: #013158;
+  transition: ease-in-out 0.3s;
+}
+
+.h1:hover{
+  opacity: .80;
+}
+
+.add{
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0px 10px;
+  margin: 10px 20px -20px;
+}
+
+.mb-3{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mb-3 .form-control{
+  background-color: #01315856;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-primary{
+  background-color: #0e8ed6;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover{
+  opacity: .80;
+}
